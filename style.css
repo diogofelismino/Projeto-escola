@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    
+}
+
+
+.borda{
+    border: solid 2px blue;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
