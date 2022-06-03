@@ -1,20 +1,77 @@
 #telaLogin{
 
-    width: 52%;
+     width: 60%; 
+    /* max-width: 600px;
+    max-height: 1000px; */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 3px 5px 20px #DFDFDF;
+    box-shadow: 3px 5px 20px #969494;
     border-radius: 20px;
+    
 
 }
 
+#telaSenha{
+
+    width: 25%; 
+   /* max-width: 600px;
+   max-height: 1000px; */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   box-shadow: 3px 5px 20px #969494;
+   border-radius: 20px;
+   
+
+}
+
+.btnPading{
+    padding: 0px;
+}
+
+.texto{
+    text-align: center;
+}
+
+#imgLogin{
+    
+}
+#imgCada{
+    margin-top: 50px;
+    flex-grow: 1;
+}
+
+.meio{
+    align-items: flex-end;
+}
 .ajuste{
     margin: 16px;
     text-align: center;
 }
 
+.ajuste2{
+    
+    
+}
+
 .preto{
     color: black;
+}
+
+.vert{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+
+.telaLogin{
+    visibility: visible ;
+}
+.telaSenha{
+    visibility: hidden ;
 }

@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js">
     <link rel="stylesheet" href="style.css">
+    <script src="muda.js"></script>
     <title>Login</title>
 </head>
 <body>
 
-    <div class="card" id="telaLogin">
+    <div class="telaLogin" id="telaLogin">
         <!-- <img src="..." class="card-img-top" alt="..."> -->
         <div class="card-body">
           
@@ -20,7 +22,7 @@
                
                 <div class="row g-0">
                     <div class="col-md-6">
-                        <div class="mb-3">
+                        <div class="mb-3 ">
 
                             <h3 class="ajuste"><strong>Acesso ao Sistema</strong></h3>
                             
@@ -37,17 +39,79 @@
                         <div class="d-grid gap-2">
 
                             <button type="submit" class="btn btn-success">Entrar</button>
+
                         </div>
 
                         <div class="ajuste">
-                            <p>Ainda não é cadastrado? <a href="">Registre-se agora!</a></p>
-                            <a class="preto" href="">Esqueci minha senha</a>
+                            <p>Ainda não é cadastrado? <a href="cadastro.html">Registre-se agora!</a></p>
+                            <a class="preto" href="" onclick="Teste1(event)" target="_self">Esqueci minha senha</a>
                         </div>
 
                     </div>
                     <div class="col-md-6">
-                        <img src="assets/sign-up.png" class="rounded float-center" alt="..." width="300px" height="400px">
+                        <img src="assets/sign-up.png" class="rounded float-end" id="imgLogin" alt="imagem de login" width="300px" height="400px">
                     </div>
+                </div>
+
+              
+            </form>
+
+
+           
+        
+        </div>
+    </div>
+
+
+
+    <div class="telaSenha" id="telaSenha">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          
+            
+            <form>
+
+               
+                <div class="row g-0">
+                    <div class="col-md-12">
+
+                        <div class="mb-3 texto ">
+
+                            <h3 class="ajuste"><strong>Esqueci minha senha</strong></h3>
+                            
+                           
+                            <label  class="form-label" >Nos informe o seu usuário: </label>
+                            <input type="text"   aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text"></div>
+                        </div>
+
+                        <h4 class="texto">ou..</h4>
+
+                        <div class="mb-3 texto">
+                           
+                            <label  class="form-label">Nos informe seu e-mail:</label>
+                            <input type="email"  aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text"></div>
+                        </div>
+                        
+
+
+                        <div class="texto">
+                            
+                            <button type="button" class="btn btn-primary btn-sm" onclick="Teste()">Recuperar senha!</button>
+
+
+                            <button type="button" class="btn btn-secondary btn-sm">Voltar a tela de login</button>
+
+                            
+                        </div>
+                               
+                            
+
+
+                        
+                    </div>
+                   
                 </div>
 
               

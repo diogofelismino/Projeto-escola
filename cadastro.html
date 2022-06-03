@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+
+
+    
+    <div class="card mb-3" id="telaLogin">
+        
+        <div class="row marcador align-items-center">
+          <div class="col mx-auto text-center ">
+            <!-- <img src="assets/sign-up2.png" class="img-fluid rounded-start" alt="..." id="imgCada"> -->
+            <!-- <img src="assets/sign-up2.png" class="img-fluid rounded-star" id="imgLogin" alt="imagem de login" > -->     
+            <img src="assets/sign-up2.png" class="img-responsive" id="imgLogin" alt="imagem de login" width="300px" height="400px">
+        </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h3 class="card-title texto"><strong>Registre-se agora mesmo!</strong></h3>
+              <p class="texto">Já é cadastrado?<a href="index.html"> sing-in</a></p>
+
+              <hr>
+
+                <form class="row g-3">
+                    <div class="col-md-6">
+                    <label for="inputEmail4" >Nos diga seu nome...</label>
+                    <input type="text" class="form-control" id="">
+                    </div>
+                    <div class="col-md-6">
+                    <label for="inputPassword4" >...e o seu sobrenome!</label>
+                    <input type="text" class="form-control" id="">
+                    </div>
+                    <div class="col-12">
+                    <label for="inputAddress" >Escolha um nome de usuário bem legal!</label>
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping">@</span>
+                        <input type="text" class="form-control" placeholder="ex: joaozinhoBrabo" aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                    </div>
+                    <div class="col-12">
+                    <label for="inputAddress2" >Qual seu e-mail?</label>
+                    <input type="email" class="form-control" id="inputAddress2" placeholder="ex: joaozinho@provedor.com">
+                    </div>
+                    <div class="col-md-4">
+                    <label for="selectEstado" >Estado/UF</label>
+                    <select class="form-select" aria-label="Disabled select example" >
+                        <option selected disabled>Selecione</option>
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AP">AP</option>
+                        <option value="AM">AM</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="DF">DF</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MT">MT</option>
+                        <option value="MS">MS</option>
+                        <option value="MG">MG</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PR">PR</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SP">SP</option>
+                        <option value="SE">SE</option>
+                        <option value="TO">TO</option>
+                    </select>
+
+                    </div>
+                    <div class="col-md-4">
+                    <label for="selectCidade" >Cidade</label>
+                    <select class="form-select" aria-label="Disabled select example" >
+                        <option selected disabled>Selecione</option>
+                        <option value="CG">Campo Grande</option>
+                        <option value="DO">Dourados</option>
+                        <option value="AG">Água Clara</option>
+                    </select>
+                    </div>
+                    <div class="col-md-4">
+                    <label for="inputCEP" >CEP</label>
+                    <input type="text" class="form-control" placeholder="12345-678">
+                    
+                    </div>
+                
+                   
+                </form>
+                <hr>
+                <form class="row g-3">
+                    <div class="col-md-6 ">
+                        <label for="inputSenha" >Digite um senha: </label>
+                        <input type="password" class="form-control" id="">
+                    </div>
+                    <div class="col-md-6 ">
+                        <label for="inputConfirmaSenha"  >Confirme sua senha: </label>
+                        <input type="password" class="form-control" id="">
+                    </div>
+
+                    <div class="col-12">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <label class="form-check-label" for="gridCheck">
+                            Confirmo que li e concordo com os <a href="">termos de uso</a> do sistema.
+                          </label>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <label class="form-check-label" for="gridCheck">
+                            Desejo receber e-mail sobre novidades, alertas e notificações.
+                          </label>
+                        </div>
+                    </div>
+                    
+
+                    <button type="button" class="btn btn-success">Confirmar Cadastro</button>
+
+                </form>    
+              
+            </div>
+          </div>
+        </div>
+    </div>
+    
+</body>
+</html>
