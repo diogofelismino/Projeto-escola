@@ -1,14 +1,20 @@
-body{
-    text-align: center;
-    
+#telaLogin{
+
+    width: 52%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 5px 20px #DFDFDF;
+    border-radius: 20px;
+
 }
 
+.ajuste{
+    margin: 16px;
+    text-align: center;
+}
 
-.borda{
-    border: solid 2px blue;
-    margin: auto;
-    width: 90%;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
+.preto{
+    color: black;
 }
